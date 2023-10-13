@@ -1,0 +1,9 @@
+{
+	"name": "azdatafactorydeve",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "87b11b76-3978-478a-a05a-56f419059cd9",
+		"tenantId": "b020d556-bd04-4e62-9b83-1d709f33f62e"
+	}
+}
