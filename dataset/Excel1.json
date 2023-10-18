@@ -9,9 +9,7 @@
 		"type": "Excel",
 		"typeProperties": {
 			"location": {
-				"type": "AzureBlobStorageLocation",
-				"fileName": "sourcexlexcel.xlxs",
-				"container": "source"
+				"type": "AzureBlobStorageLocation"
 			}
 		},
 		"schema": []
