@@ -1,0 +1,20 @@
+{
+	"name": "sinkpqds",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStoragelinkeds",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "sinkdataaz",
+				"container": "sink"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	}
+}
