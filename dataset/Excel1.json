@@ -9,8 +9,7 @@
 		"type": "Excel",
 		"typeProperties": {
 			"location": {
-				"type": "AzureBlobStorageLocation",
-				"container": "sink"
+				"type": "AzureBlobStorageLocation"
 			}
 		},
 		"schema": []
