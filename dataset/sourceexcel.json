@@ -1,5 +1,5 @@
 {
-	"name": "Excel1",
+	"name": "sourceexcel",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "AzureBlobStoragels",
