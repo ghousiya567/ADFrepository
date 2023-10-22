@@ -8,9 +8,13 @@
 		"annotations": [],
 		"type": "Excel",
 		"typeProperties": {
+			"sheetName": "Sheet1",
 			"location": {
-				"type": "AzureBlobStorageLocation"
-			}
+				"type": "AzureBlobStorageLocation",
+				"fileName": "sourceexcel.xls",
+				"container": "sourceexcel"
+			},
+			"firstRowAsHeader": true
 		},
 		"schema": []
 	}
