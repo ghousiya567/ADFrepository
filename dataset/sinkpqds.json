@@ -11,7 +11,7 @@
 			"location": {
 				"type": "AzureBlobStorageLocation",
 				"fileName": "sinkdataaz",
-				"container": "sink"
+				"container": "sourceexcel"
 			},
 			"compressionCodec": "snappy"
 		},

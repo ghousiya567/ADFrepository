@@ -2,7 +2,7 @@
 	"name": "Excel1",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "AzureBlobStoragelinkeds",
+			"referenceName": "AzureBlobStoragels",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
