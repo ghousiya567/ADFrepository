@@ -14,11 +14,7 @@
 				}
 			],
 			"sinks": [],
-			"transformations": [
-				{
-					"name": "aggregate1"
-				}
-			],
+			"transformations": [],
 			"scriptLines": [
 				"source(output(",
 				"          AccountKey as integer,",
@@ -35,8 +31,7 @@
 				"     allowSchemaDrift: true,",
 				"     validateSchema: false,",
 				"     isolationLevel: 'READ_UNCOMMITTED',",
-				"     format: 'table') ~> studentdataset",
-				"studentdataset aggregate() ~> aggregate1"
+				"     format: 'table') ~> studentdataset"
 			]
 		}
 	}
